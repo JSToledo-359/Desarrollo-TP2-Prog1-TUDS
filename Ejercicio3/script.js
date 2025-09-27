@@ -8,7 +8,6 @@ de un procedimiento.*/
 
 let precio1, precio2, bandera = 1;
 
-
 do{
     precio1 = parseFloat(prompt("Ingrese el precio: "));
 
@@ -32,7 +31,7 @@ do{
 
 }while(bandera == 1)
 
-    console.log("terminó el programa");
+    console.log("terminó el programa");//Termina
 
 function calculo(a, b){
 return (a * b);
